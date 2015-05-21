@@ -1,0 +1,110 @@
+<div class="page-header">
+  <!--  <h1>{{ page.title }} <small>{{ page.tagline }}</small></h1> -->
+  <div class="head-left"><span class="head-left-inner">{{ page.title }}</span> <small>{{ page.tagline }}</small></div><div class="head-right"><span class="head-right-inner">{{ site.repo_name }}</span></div>
+</div>
+
+<div class="row">
+  <div class="span10">
+    {{ content }}
+    <hr>
+    <div class="pagination">
+      <ul>
+      {% if page.next %}
+      <li class="prev"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">&larr; Previous</a></li>
+      {% else %}
+        <li class="prev disabled"><a>&larr; Previous</a></li>
+      {% endif %}
+      <!--<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>-->
+      {% if page.previous %}
+      <li class="next"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Next &rarr;</a></li>
+      {% else %}
+        <li class="next disabled"><a>Next &rarr;</a>
+      {% endif %}
+      </ul>
+      <span class="back-to-top"><a href="#">Back to Top</a></span>
+    </div>
+    <hr>
+    <!--{% include JB/comments %}-->
+  </div>
+  
+  <div class="span4">
+    <!--<h4>Published</h4>
+    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>-->
+
+    <ol class="lessons">
+      <h4>Lessons</h4>
+      <li><a href="http://spatialcarpentry.github.io/setup/">Setup</a></li>
+      {% if site.repo_name == 'Setup' %}
+        <ol>
+          {% for post in site.posts %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+      <li><a href="http://spatialcarpentry.github.io/basics/">Basics</a></li>
+      {% if site.repo_name == 'Basics' %}
+        <ol>
+          {% for post in site.posts %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+      <li><a href="http://spatialcarpentry.github.io/data-collection/">Data Collection</a></li>
+      {% if site.repo_name == 'Data Collection' %}
+        <ol>
+          {% for post in site.posts %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+      <li><a href="http://spatialcarpentry.github.io/data-hygiene/">Data Hygiene</a></li>
+      {% if site.repo_name == 'Data Hygiene' %}
+        <ol>
+          {% for post in site.posts %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+      <li><a href="http://spatialcarpentry.github.io/spatial-analysis/">Spatial Analysis</a></li>
+      {% if site.repo_name == 'Spatial Analysis' %}
+        <ol>
+          {% for post in site.posts %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+      <li><a href="http://spatialcarpentry.github.io/cartography/">Cartography</a></li>
+      {% if site.repo_name == 'Cartography' %}
+        <ol>
+          {% for post in site.posts %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+      <!--<li><a href="http://spatialcarpentry.github.io/data-sharing/">Data Sharing</a></li>
+      {% if site.repo_name == 'Data Sharing' %}
+        <ol>
+          {% for post in site.posts %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      {% endif %}-->
+    </ol>
+
+    <!--<ol class="posts">
+      <h4>Contents</h4>
+      <span class="post-nav-title">{{ site.repo_name }}</span>
+      {% for post in site.posts %}
+        <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ol>-->
+
+  {% unless page.tags == empty %}
+    <ul class="tag_box">
+    <h4>Tags</h4>
+    {% assign tags_list = page.tags %}
+    {% include JB/tags_list %}
+    </ul>
+  {% endunless %}  
+  </div>
+</div>

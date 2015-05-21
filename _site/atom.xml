@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Spatial Data Bootcamp</title>
+ <link href="http://spatialcarpentry.github.io/" rel="self"/>
+ <link href="http://spatialcarpentry.github.io"/>
+ <updated>2015-05-21T15:10:22-07:00</updated>
+ <id>http://spatialcarpentry.github.io</id>
+ <author>
+   <name>Nathan Casler & Daniel Guaderrama</name>
+   <email>ncasler@email.arizona.edu</email>
+ </author>
+
+ 
+ <entry>
+   <title>Elevation</title>
+   <link href="http://spatialcarpentry.github.io/elevation/overview"/>
+   <updated>2000-12-31T00:00:00-07:00</updated>
+   <id>http://spatialcarpentry.github.io/elevation/overview</id>
+   <content type="html">
+&lt;table&gt;
+  &lt;th&gt;Description&lt;/th&gt;
+  &lt;th&gt;Source&lt;/th&gt;
+  &lt;th&gt;Website&lt;/th&gt;
+  &lt;th&gt;FTP&lt;/th&gt;
+  &lt;th&gt;Documentation&lt;/th&gt;
+  &lt;tr&gt;
+    &lt;td&gt;National Elevation Dataset (NED)&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://ned.usgs.gov&quot; target=&quot;_blank&quot;&gt;USGS&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://viewer.nationalmap.gov/viewer/&quot; target=&quot;_blank&quot;&gt;National Map&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/NED/&quot; target=&quot;_blank&quot;&gt;FTP&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://ned.usgs.gov/documents/NED_DataDictionary.pdf&quot; target=&quot;_blank&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;GTOPO30 (DEM)&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://www.usgs.gov&quot; target=&quot;_blank&quot;&gt;USGS&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://earthexplorer.usgs.gov/&quot; target=&quot;_blank&quot;&gt;EarthExplorer&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;ftp://edcftp.cr.usgs.gov/../data/gtopo30/&quot; target=&quot;_blank&quot;&gt;FTP&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://webgis.wr.usgs.gov/globalgis/gtopo30/gtopo30.htm&quot; target=&quot;_blank&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;!--
+
+to-do:
+
+ftp://edcftp.cr.usgs.gov/../data/
+http://e4ftl01.cr.usgs.gov/
+https://dds.cr.usgs.gov/srtm/
+
+--&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

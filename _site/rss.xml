@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Spatial Data Bootcamp</title>
+        <description>Spatial Data Bootcamp - Nathan Casler & Daniel Guaderrama</description>
+        <link>http://spatialcarpentry.github.io</link>
+        <link>http://spatialcarpentry.github.io</link>
+        <lastBuildDate>2015-05-21T15:10:22-07:00</lastBuildDate>
+        <pubDate>2015-05-21T15:10:22-07:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Elevation</title>
+                <description>
+&lt;table&gt;
+  &lt;th&gt;Description&lt;/th&gt;
+  &lt;th&gt;Source&lt;/th&gt;
+  &lt;th&gt;Website&lt;/th&gt;
+  &lt;th&gt;FTP&lt;/th&gt;
+  &lt;th&gt;Documentation&lt;/th&gt;
+  &lt;tr&gt;
+    &lt;td&gt;National Elevation Dataset (NED)&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://ned.usgs.gov&quot; target=&quot;_blank&quot;&gt;USGS&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://viewer.nationalmap.gov/viewer/&quot; target=&quot;_blank&quot;&gt;National Map&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/NED/&quot; target=&quot;_blank&quot;&gt;FTP&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://ned.usgs.gov/documents/NED_DataDictionary.pdf&quot; target=&quot;_blank&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;GTOPO30 (DEM)&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://www.usgs.gov&quot; target=&quot;_blank&quot;&gt;USGS&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://earthexplorer.usgs.gov/&quot; target=&quot;_blank&quot;&gt;EarthExplorer&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;ftp://edcftp.cr.usgs.gov/../data/gtopo30/&quot; target=&quot;_blank&quot;&gt;FTP&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;http://webgis.wr.usgs.gov/globalgis/gtopo30/gtopo30.htm&quot; target=&quot;_blank&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;!--
+
+to-do:
+
+ftp://edcftp.cr.usgs.gov/../data/
+http://e4ftl01.cr.usgs.gov/
+https://dds.cr.usgs.gov/srtm/
+
+--&gt;
+</description>
+                <link>http://spatialcarpentry.github.io/elevation/overview</link>
+                <guid>http://spatialcarpentry.github.io/elevation/overview</guid>
+                <pubDate>2000-12-31T00:00:00-07:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>
